@@ -15,7 +15,6 @@ def model_neural_network(data, num_nodes_list):
 
     for lnum in range(num_layers - 1):
         is_output_layer = lnum == num_layers - 2
-        print("is_output_layer", lnum, is_output_layer)
 
         num_nodes = num_nodes_list[lnum]
         num_nodes_next = num_nodes_list[lnum + 1]
